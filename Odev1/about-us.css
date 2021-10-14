@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+
+header .header_h1{
+    color:red;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav a{
+    color:purple;
+}
+
+.page_header{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+
+.about h3{
+    color:goldenrod;
+}

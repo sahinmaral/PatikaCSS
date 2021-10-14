@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+header .header_h1{
+    color:red;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding-bottom: 10px;
+}
+
+nav a{
+    color:purple;
+}
+
+.page_header{
+    color: rebeccapurple;
+}
+
+.product{
+    width: 600px;
+    height: 400px;
+}

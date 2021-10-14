@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+header .header_h1{
+    color:red;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding-bottom: 10px;
+}
+
+nav a{
+    color:purple;
+}
+
+.page_header{
+    color: rebeccapurple;
+}
+
+.secondDiv{
+    font-size:20px;
+}
+
+.secondDiv .header{
+    color:goldenrod;
+    font-family: 'Roboto', sans-serif;
+}
+
+.secondDiv ul{
+    list-style-position: inside;
+}

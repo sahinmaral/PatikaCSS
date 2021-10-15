@@ -1,0 +1,69 @@
+body html{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+.container{
+    margin:auto;
+    padding:10px;
+    width: 1140px;
+}
+
+.image img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height: 200px;
+    width:400px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.search input{
+    width:500px;
+    margin-bottom:10px;
+}
+
+.features{
+    margin-top:20px;
+    text-align: center;
+}
+
+.card{
+    height: 110px;
+    width: 38%;
+    float:left;
+}
+
+.card2{
+    padding-top:10px;
+    height: 100px;
+    width: 20%;
+    float:left;
+}
+
+.float-clear{
+    clear:both;
+}
+
+.footer{
+    text-align: center;
+    margin-top:20px;
+}
+
+.bg-turquise1{
+    background-color: #33cccc;
+}
+
+.bg-turquise2{
+    background-color: #2eb8b8;
+}
+
+.bg-turquise3{
+    background-color: #29a3a3;
+}
+

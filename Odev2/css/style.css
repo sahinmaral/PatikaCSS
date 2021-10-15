@@ -14,12 +14,16 @@ body html{
     margin-left:auto;
     margin-right:auto;
     display:block;
-    height: 200px;
+    height: 150px;
     width:400px;
 }
 
 .text-center{
     text-align: center;
+}
+
+.search{
+    background-color:#e6e6e6;
 }
 
 
@@ -29,13 +33,13 @@ body html{
 }
 
 .features{
-    margin-top:20px;
+    margin-top:5px;
     text-align: center;
 }
 
 .card{
     height: 110px;
-    width: 38%;
+    width: 40%;
     float:left;
 }
 

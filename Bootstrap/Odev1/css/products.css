@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color :  #E9ECEF;
+}
+
+header .header_h1{
+    color:red;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding-bottom: 10px;
+}
+
+nav a{
+    color:purple;
+}
+
+.page_header{
+    color: rebeccapurple;
+}
+
+.product{
+    width: 600px;
+    height: 400px;
+}
+
+.card .card-description{
+    height: 60px;
+}
+
+.card .card-image{
+    height: 230px;
+}
+
+
+.card .card-body h4{
+    color:purple;
+}

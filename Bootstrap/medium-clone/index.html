@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="assets/medium.ico">
+
+    <title>Medium - Where good ideas find you.</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="header navbar navbar-expand-lg navbar-light border-dark border-bottom">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-start" href="#">Medium</a>
+            <div class="d-flex justify-content-end">
+
+                <a class="nav-link d-none d-md-block" aria-current="page" href="#">Our story</a>
+                <a class="nav-link d-none d-md-block" href="#">Membership</a>
+                <a class="nav-link d-none d-md-block" href="#">Write</a>
+                <a class="nav-link d-none d-sm-block" href="#">Sign In</a>
+                <a class="btn btn-dark rounded-pill" href="#">Get started</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner border-bottom border-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-6 pt-4">
+                    <h1 style="font-weight: 400;">
+                        Explore new perspectives</h1>
+                    <p style="margin-top:20px;">Read and share ideas from independent voices,
+                        world-class publications, and experts
+                        from around the globe. Everyone's welcome.
+                        <a href="#" style="color:black;">Learn more.</a>
+                    </p>
+                </div>
+                <div class="col-lg-6" id="banner-image">
+                    <img src="https://picsum.photos/250/250" class="rounded-circle mt-4 float-end img-fluid">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="#" style="width:130px;" class="btn btn-light rounded-pill border-dark">Start Writing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Trending -->
+    <div class="container mt-5">
+        <!-- Top Trending Header -->
+        <div class="row">
+            <div class="col-12 d-flex">
+                <i class="fa fa-line-chart fa-lg"></i>
+                <h4 class="trending-main-header">TRENDING ON MEDIUM</h4>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4 class="p-0">01</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">Sienna Mae Gomez</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                Sienna Mae Gomez: Reflections from an 18-Year Old Me
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 23</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">15 min read</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4>02</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">Clement Brian</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                6 Programming Languages
+                                You Should Not Learn (and What To Learn Instead)
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 24</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">8 min read</small>
+                                <i class="fa fa-star" id="star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4>03</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">Anthony Bruno</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                Eulogy for a Gambler
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 24</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">24 min read</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4 class="p-0">04</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">VeVe Digital Collectibles</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                Disney Mickey and Friends NFT Collection
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 27</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">4 min read</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4>05</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">Laura Arrillaga-Andreessen</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                John Arrillaga, 1937-2022
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 25</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">8 min read</small>
+                                <i class="fa fa-star" id="star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-sm-12 col-md-6 col-lg-4 border border-light mb-4">
+                <div class="row g-0">
+                    <div class="col-2">
+                        <h4>06</h4>
+                    </div>
+                    <div class="col-10">
+                        <div class="card-body p-0">
+                            <div class="d-flex">
+                                <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                    class="img-fluid rounded-circle">
+                                <h5 class="card-title">Coinbase</h5>
+                            </div>
+                            <p class="card-text trending-header mb-0">
+                                Coinbase and Mastercard partner to revolutionize NFT purchase experience
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">Jan 18</small>
+                                <small class="text-muted">.</small>
+                                <small class="text-muted">2 min read</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="opacity:0.15">
+
+    <!-- Top Stories -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- All Stories -->
+            <div class="order-last order-lg-first col-md-12 col-lg-8">
+                <div class="card border border-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body col-8">
+                                <div class="d-flex">
+                                    <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                        class="img-fluid rounded-circle">
+                                    <h5 class="card-title">Carvell Wallace</h5>
+                                </div>
+                                <p class="card-text stories-header mb-0">
+                                    On Entropy
+                                </p>
+                                <h3 class="stories-preview">
+                                    The sun stays up past 5 p.m.
+                                    now, symbolizing that there may, indeed,
+                                    be some hope, though I don’t know from where said hope would emerge…
+                                </h3>
+                                <p class="card-text stories-description">
+                                    <small class="text-muted">Jan 27</small>
+                                    <small class="text-muted">.</small>
+                                    <small class="text-muted">5 min read</small>
+                                    <small class="text-muted">.</small>
+                                    <a class="btn btn-light rounded-pill text-muted stories-subject">Parenting</a>
+                                    
+                                    <a class="star-link" style="text-decoration: none; color:black;" href="#">
+                                    <i class="fa fa-star p-0" id="star"></i></a>
+                                    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i id="stories-options"
+                                    class="fa fa-bars float-end mt-1"></i></a>
+                                    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i style="padding-right:10px;" id="stories-bookmark"
+                                    class="fa fa-bookmark-o fa-lg float-end mt-1"></i></a>
+                                    
+    
+                                </p>
+                            </div>
+                    
+                            <div class="col-4">
+                                <img style="display: block;
+                                width: 100%;
+                                height: auto;" class="mt-3" src="https://picsum.photos/200/110">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border border-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body col-8">
+                                <div class="d-flex">
+                                    <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                        class="img-fluid rounded-circle">
+                                    <h5 class="card-title">Philipp Markolin</h5>
+                                </div>
+                                <p class="card-text stories-header mb-0">
+                                    Towards better social media heuristics in a world full of grifters
+                                </p>
+                                <h3 class="stories-preview">
+                                    Why the ‘lab leak hypothesis’ is just another 
+                                    one of those narratives too good to let go
+                                </h3>
+                                <p class="card-text stories-description">
+                                    <small class="text-muted">Jan 27</small>
+                                    <small class="text-muted">.</small>
+                                    <small class="text-muted">15 min read</small>
+                                    <small class="text-muted">.</small>
+                                    <a class="btn btn-light rounded-pill text-muted stories-subject">Social Media</a>
+
+                                    <a class="star-link" style="text-decoration: none; color:black;" href="#">
+                                    <i class="fa fa-star p-0" id="star"></i></a>
+    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i id="stories-options"
+                                    class="fa fa-bars float-end mt-1"></i></a>
+                                    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i style="padding-right:10px;" id="stories-bookmark"
+                                    class="fa fa-bookmark-o fa-lg float-end mt-1"></i></a>
+                                    
+    
+                                </p>
+                            </div>
+                    
+                            <div class="col-4">
+                                <img style="display: block;
+                                width: 100%;
+                                height: auto;" class="mt-3" src="https://picsum.photos/200/110">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border border-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="card-body col-8">
+                                <div class="d-flex">
+                                    <img src="https://picsum.photos/30/30" style="width:20px; height:20px;"
+                                        class="img-fluid rounded-circle">
+                                    <h5 class="card-title">Rabbi Misha Shulman</h5>
+                                </div>
+                                <p class="card-text stories-header mb-0">
+                                    Choose Life
+                                </p>
+                                <h3 class="stories-preview">
+                                    There was no blessing for this heart-wrenching act, so Erika and I created one:
+                                </h3>
+                                <p class="card-text stories-description">
+                                    <small class="text-muted">Jan 28</small>
+                                    <small class="text-muted">.</small>
+                                    <small class="text-muted">4 min read</small>
+                                    <small class="text-muted">.</small>
+                                    <a class="btn btn-light rounded-pill text-muted stories-subject">Religion</a>
+
+                                    <a class="star-link" style="text-decoration: none; color:black;" href="#">
+                                    <i class="fa fa-star p-0" id="star"></i></a>
+    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i id="stories-options"
+                                    class="fa fa-bars float-end mt-1"></i></a>
+                                    
+                                    <a style="text-decoration: none; color:black;" href="#">
+                                    <i style="padding-right:10px;" id="stories-bookmark"
+                                    class="fa fa-bookmark-o fa-lg float-end mt-1"></i></a>
+                                    
+    
+                                </p>
+                            </div>
+                    
+                            <div class="col-4">
+                                <img style="display: block;
+                                width: 100%;
+                                height: auto;" class="mt-3" src="https://picsum.photos/200/110">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Discover More -->
+            <div class="order-first order-lg-last col-md-12 col-lg-4 mt-4">
+                <h4 class="discover-header mb-3">DISCOVER MORE OF WHAT MATTERS TO YOU</h4>
+                <a href="#" class="btn btn-light discover-buttons">Self</a>
+                <a href="#" class="btn btn-light discover-buttons">Relationships</a>
+                <a href="#" class="btn btn-light discover-buttons">Data Science</a>
+                <a href="#" class="btn btn-light discover-buttons">Programming</a>
+                <a href="#" class="btn btn-light discover-buttons">Productivity</a>
+                <a href="#" class="btn btn-light discover-buttons">Javascript</a>
+                <a href="#" class="btn btn-light discover-buttons">Machine Learning</a>
+                <a href="#" class="btn btn-light discover-buttons">Politics</a>
+                <a href="#" class="btn btn-light discover-buttons">Health</a>
+
+                <hr class="mt-4 mb-3" style="opacity:0.11; width:100%;">
+
+                <a href="#" class="btn btn-light under-discover">Help</a>
+                <a href="#" class="btn btn-light under-discover">Status</a>
+                <a href="#" class="btn btn-light under-discover">Writers</a>
+                <a href="#" class="btn btn-light under-discover">Blog</a>
+                <a href="#" class="btn btn-light under-discover">Careers</a>
+                <a href="#" class="btn btn-light under-discover">Privacy</a>
+                <a href="#" class="btn btn-light under-discover">Terms</a>
+                <a href="#" class="btn btn-light under-discover">About</a>
+                <a href="#" class="btn btn-light under-discover">Knowledge</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

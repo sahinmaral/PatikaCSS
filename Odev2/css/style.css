@@ -32,6 +32,10 @@ body html{
     margin-bottom:10px;
 }
 
+.search input:focus{
+    outline:none;
+}
+
 .features{
     margin-top:5px;
     text-align: center;

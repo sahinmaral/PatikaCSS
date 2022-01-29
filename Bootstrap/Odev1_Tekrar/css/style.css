@@ -1,0 +1,19 @@
+body{
+    background-color:#e9ecef;
+}
+
+.text-gold{
+    color : #ffc017;
+}
+
+.text-purple{
+    color : #5a2bac;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.card{
+    margin:5px;
+}

@@ -1,0 +1,152 @@
+.header {
+  height: 70px;
+  background-color: #ffc017;
+}
+
+.banner {
+  height: 370px;
+  background-color: #ffc017;
+}
+
+.banner h1 {
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 70px;
+}
+
+.banner p {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-link {
+  color: black !important;
+  font-size: 14px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.header .rounded-pill {
+  background-color: black !important;
+  font-size: 14px !important;
+  vertical-align: middle;
+}
+
+.trending-main-header {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.card h4 {
+  color: rgba(230, 230, 230, 1);
+  font-size: 35px;
+  margin-top: -10px;
+  font-weight: 700;
+}
+
+.card-body .card-title {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.trending-header {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+#star {
+  font-size: 0.85rem;
+  padding-left: 10px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.star-link:hover{
+    background-color: white !important;
+}
+
+.stories-header {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.stories-subject{
+    font-size:.875em !important;
+}
+
+.stories-description a:hover{
+    background-color:rgb(238, 231, 231);
+}
+
+.stories-preview {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+}
+
+.discover-header {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.discover-buttons {
+  border: 0.5px solid rgba(192, 192, 192, 0.5) !important;
+  margin:3px;
+  font-size:13px !important;
+  color: rgba(117, 117, 117, 1) !important;
+}
+
+.under-discover {
+    border:0px;
+    margin:3px;
+    font-size:13px !important;
+    color: rgba(117, 117, 117, 1) !important;
+  }
+
+@media only screen and (max-width: 553px) {
+  .stories-subject {
+    display: none;
+  }
+
+  #stories-options {
+    display: none;
+  }
+
+  #stories-bookmark {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .stories-preview {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+    .under-discover{
+        display:none !important;
+    }
+  }
+
+@media only screen and (max-width: 991px) {
+  #banner-image {
+    display: none;
+  }
+}
+
+/* Mobile Devices */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .banner h1 {
+    font-size: 50px;
+  }
+
+  .stories-header {
+    font-size: 16px;
+  }
+}

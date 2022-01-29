@@ -12,3 +12,14 @@ body{
     clear: both;
 }
 
+.card{
+    border:1px solid white;
+}
+
+.card .list-group li{
+    border:1px solid white;
+}
+
+.card .card-header{
+    border:1px solid white;
+}
